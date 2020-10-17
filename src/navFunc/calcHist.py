@@ -33,4 +33,4 @@ def calcHist (Image):
     print('Histogram has been calculated')
     print('################################')
 
-    return buffer
+    return 100*buffer/(size.A.lin*size.A.col)
